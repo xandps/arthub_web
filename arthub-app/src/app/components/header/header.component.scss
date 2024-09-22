@@ -1,0 +1,32 @@
+@import '../../../styles.scss';
+
+.container-header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: $header-color;
+    border-bottom: 1px $border-color solid;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 20px;
+
+        img{
+            height: 3rem;
+        }
+    }
+
+    .buttons-indique-ham{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .pi .pi-align-right{
+            color: $border-color;
+        }
+    }
+}

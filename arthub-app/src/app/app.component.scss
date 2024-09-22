@@ -1,0 +1,17 @@
+@import '../styles.scss';
+
+app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}

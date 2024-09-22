@@ -1,0 +1,14 @@
+@import '../../../styles.scss';
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+    img{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+}
