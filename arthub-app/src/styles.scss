@@ -12,9 +12,13 @@ $header-color: #0E0A28CC;
 }
 
 button{
+    display: flex;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
+    gap: 10px;
     color: $primary-color;
     background-color: $border-color;
+    align-items: center;
+    justify-content: center;
     border: none;
 }
